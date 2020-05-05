@@ -1,0 +1,117 @@
+* {
+  margin:0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+ul {
+  width:150%;
+}
+main {
+  position: absolute;
+  width:100%;
+  top:15%;
+  height: 85%;
+}
+
+input {
+  text-decoration: none;
+}
+
+.navbar {
+  width: 100%;
+  margin:0 auto;
+  margin-top:-3px;
+}
+
+
+form {
+  width:100%;
+  margin:0 auto;
+  height:100%;
+}
+
+label {
+  width:100%;
+}
+
+.form-group {
+  width:100%;
+  margin:0 auto;
+}
+
+#reset-pass-label,#reset-confirmpass-label {
+  text-align: center;
+}
+
+#form_email, #form_pass, #form_confirmpass {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.circle-container {
+  border:10px solid black;
+  border-radius:100%;
+  width:530px;
+  height:530px;
+  padding:110px;
+  padding-top:60px;
+  margin:0 auto;
+}
+
+input[type="submit"] {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    overflow: hidden;
+    font-size: 15px;
+    height: 40px;
+    width: 250px;
+    justify-content: space-between;
+    color: #494949 !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #ffffff;
+    border: 2px solid #494949 !important;
+    display: inline-block;
+    transition: all 0.4s ease 0s;
+    display: block;
+    margin: 0 auto;
+    font-family: copperplate;
+}
+
+input[type="submit"]:hover {
+  color: #FFFFFF !important;
+  background: #000000;
+  border-color: #FFFFFF !important;
+  transition: all 0.4s ease 0s;
+}
+
+input[name="reset-pwd"] {
+  display: block;
+  padding: 20px;
+  width: 350px;
+  border-radius: 30px;
+  border: 1px solid black;
+}
+
+input[name="reset-confirmpwd"] {
+  display: block;
+  padding: 20px;
+  width: 350px;
+  border-radius: 30px;
+  border: 1px solid black;
+}
+
+#reset-password-recommendation {
+  width: 55%;
+}
+
+#reset-password-score {
+  width: 55%;
+}
+
+.reset-progress {
+  width: 80%;
+  margin:0px;
+}

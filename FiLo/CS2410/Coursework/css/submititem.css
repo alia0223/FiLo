@@ -1,0 +1,184 @@
+* {
+  margin:0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+main {
+  position: absolute;
+  width:100%;
+  top:15%;
+  height: 85%;
+}
+
+header {
+  width:100%;
+  margin: 0 auto;
+}
+
+ul {
+  list-style:none;
+  text-decoration: none;
+  justify-content: space-between;
+  display:flex;
+  flex-wrap:wrap;
+  width:80%;
+  margin:0 auto;
+}
+
+li {
+  margin: 0 auto;
+}
+
+input {
+  text-decoration: none;
+  width:300px;
+}
+
+.navbar {
+  width: 100%;
+  margin:0 auto;
+  margin-top:-3px;
+}
+
+form {
+  width:100%;
+  margin:0 auto;
+  height:100%;
+}
+
+#submit-item {
+  background-color:lightgrey;
+  width:50%;
+  height:91.5%;
+
+}
+
+.container {
+  background-color:lightgrey;
+  border-radius:0.9%;
+  border: 4px solid black;
+}
+
+table {
+  width: 755px;
+  height:200px;
+  text-align: left;
+  border-collapse: collapse;
+  font-size: 0.9em;
+  min-width: 400px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  margin:0 auto;
+}
+
+
+input[name="desc"],input[name="loc"],input[name="col"],input[name="finder"] {
+  width: 500px;
+  height:50px;
+  padding-top: 0;
+  padding-left: 0;
+  line-height: 1em; // this probably doesn't matter
+}
+
+tr,td {
+  font-size: 20px;
+}
+
+td {
+  padding: 12px 15px;
+}
+
+tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: white;
+  color:black;
+}
+
+tr:nth-child(odd) {
+  background-color: white;
+  color:black;
+}
+
+th {
+  background-color: black;
+  color: white;
+}
+
+td {
+  width: 250px;
+
+}	
+input {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+}
+tr {
+  height:50px;
+}
+
+tr:last-of-type {
+  border-bottom: 2px solid black;
+}
+
+input[name="databasebtn"] {
+  border-radius:0px;
+}
+
+input[name="logoutbtn"] {
+  border-radius:0px;
+}
+
+input[name="submititembtn"] {
+  border-radius:0px;
+  padding:5px;
+}
+
+
+input[class="btn"] {
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  cursor:pointer;
+  overflow: hidden;
+  font-size: 20px;
+  height: 50px;
+  width: 200px;
+  justify-content: space-between;
+  color: #494949 !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #ffffff;
+  border: 2px solid #494949 !important;
+  display: inline-block;
+  transition: all 0.4s ease 0s;
+  display: block;
+  margin: 20px;
+  margin:0 auto;
+  font-size:20px;
+}
+
+input[class="btn"]:hover {
+  color: #FFFFFF !important;
+  background: #000000;
+  border-color: #FFFFFF !important;
+  transition: all 0.4s ease 0s;
+}
+
+input[name="submit"] {
+  border-radius: 100%;
+  height: 90px;
+  width: 90px;
+  font-size: small;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+

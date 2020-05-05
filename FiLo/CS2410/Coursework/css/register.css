@@ -1,0 +1,195 @@
+* {
+  margin:0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+main {
+  position: absolute;
+  width:100%;
+  top:15%;
+  height: 85%;
+}
+
+header {
+  width:100%;
+  margin: 0 auto;
+}
+
+
+ul {
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  width:80%;
+  margin:0 auto;
+}
+
+li {
+  margin: auto;
+}
+
+input {
+  text-decoration: none;
+}
+
+.navbar {
+  width: 100%;
+  margin:0 auto;
+  margin-top:-3px;
+}
+
+
+form {
+  width:100%;
+  margin:0 auto;
+  height:100%;
+}
+
+label {
+  width:100%;
+  margin:0px;
+}
+
+.form-group {
+  width:100%;
+  margin:0 auto;
+}
+
+#email-label,#pass-label,#confirmpass-label {
+  text-align: center;
+}
+
+#form_email, #form_pass, #form_confirmpass {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.circle-container {
+  border:10px solid black;
+  border-radius:100%;
+  width:530px;
+  height:530px;
+  padding:120px;
+  padding-top:20px;
+  margin:0 auto;
+}
+
+input[name="homebtn"] {
+  border-radius: 0px;
+}
+
+input[name="lgnbtn"] {
+  border-radius: 0px;
+}
+
+input[name="vlibtn"] {
+  border-radius: 0px;
+}
+
+
+input[class="btn"] {
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  cursor:pointer;
+  overflow: hidden;
+  font-size: 20px;
+  height: 50px;
+  width: 200px;
+  justify-content: space-between;
+  color: #494949 !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #ffffff;
+  border: 2px solid #494949 !important;
+  display: inline-block;
+  transition: all 0.4s ease 0s;
+  display: block;
+  margin: 20px;
+  margin:0 auto;
+  font-size:20px;
+}
+
+input[class="btn"]:hover {
+  color: #FFFFFF !important;
+  background: #000000;
+  border-color: #FFFFFF !important;
+  transition: all 0.4s ease 0s;
+}
+
+input[name="submit"] {
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  cursor:pointer;
+  overflow: hidden;
+  font-size: 15px;
+  height: 40px;
+  width: 200px;
+  justify-content: space-between;
+  color: #494949 !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #ffffff;
+  border: 2px solid #494949 !important;
+  display: inline-block;
+  transition: all 0.4s ease 0s;
+  display: block;
+  margin: 20px;
+  margin:0 auto;
+}
+
+input[type="submit"]:hover {
+  color: #FFFFFF !important;
+  background: #000000;
+  border-color: #FFFFFF !important;
+  transition: all 0.4s ease 0s;
+}
+
+.circle {
+    height: 600px;
+    width: 600px;
+    background-color: #FFF;
+    border-radius: 100%;
+    border: 4px solid black;
+}
+
+.rect {
+  height: 300px;
+  width: 100%;
+  background-color: black;
+  margin: 0 auto;
+  position: fixed;
+  top: 320px;
+  color:white;
+}
+
+input[name="email"] {
+  display: block;
+  padding: 20px;
+  margin: 20px;
+  width: 325px;
+  border-radius: 30px;
+  border: 2px solid black;
+}
+
+input[name="pwd"] {
+  display: block;
+  padding: 20px;
+  margin: 20px;
+  width: 325px;
+  border-radius: 30px;
+  border: 2px solid black;
+}
+
+input[name="confirmpwd"] {
+  display: block;
+  padding: 20px;
+  margin: 20px;
+  width: 325px;
+  border-radius: 30px;
+  border: 2px solid black;
+}
+
+.progress {
+  background-color: red;
+}
